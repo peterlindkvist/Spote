@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Spote</title>
+    <link rel="stylesheet" href="sp://import/css/adam.css">
+    <link rel="stylesheet" href="spote.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="http://cdn.pubnub.com/pubnub-3.1.min.js"></script>
+	<script src="qttag.js"></script>
+</head>
+<body onload="sp = getSpotifyApi(1); spote = sp.require('spote'); spote.init();">
+<div class="js-status">initilaizing</div>
+<div class="js-message">waiting...</div>
+<div>
+	<span id="js-serverurl">http://vapengatan.dnsalias.com/spote/?</span>
+	<input id="js-qrtext" type="text">
+</div>
+<div>
+	<a class="js-fullserverurl">link</a>
+</div>
+<canvas id="js-qrcanv"></canvas>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=MacRoman"/>
+<meta name="viewport" content="width=device-width, user-scalable=no" />
+<title></title>
+<style>
+body {
+	width:100%;
+}
+.grid1-4 {
+	width :25%;
+}
+.grid2-4 {
+	width :50%;
+}
+div, table {
+	width : 100%;
+}
+#js-search {
+	width : 70%;
+}
+</style>
+</head>
+<body>
+<div class="js-current">waiting...</div>
+<div class="js-channel"></div>
+<div>
+	<input class="js-previous" type="button" value="|<<" />
+	<input class="js-pause" type="button" value="||" />
+	<input class="js-resume" type="button" value=">" />
+	<input class="js-next" type="button" value=">>|" />
+</div>
+<select id="js-library">
+</select>
+<form id="js-form">
+	<input id="js-search" type="search" class="search"/>
+	<input type="submit" value="search">
+</form>
+<div class="js-lookup-result"></div>
+<table id="js-search-track" class="search-result">
+
+</table>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="http://cdn.pubnub.com/pubnub-3.1.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

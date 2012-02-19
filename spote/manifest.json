@@ -1,0 +1,11 @@
+{
+	"BundleType": "Application",
+	"AppIcon": {
+		"36x18": "tutorial.png"
+	},
+	"AppName": {
+		"en": "spote"
+	},
+	"SupportedLanguages": ["en"],
+	"RequiredPermissions": ["https://ajax.googleapis.com", "http://cdn.pubnub.com", "http://pubsub.pubnub.com"]
+}
